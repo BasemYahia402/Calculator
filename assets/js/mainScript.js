@@ -107,20 +107,20 @@ sidebarToggle.addEventListener('click', () => {
       </div>  
   
       <div class="btns" id="btns">
-        <button onclick="clearResult()">C</button>
-        <button onclick="deleteLastDigit_currency()"><img src="assets/images/trash.png" alt=""></button>
-        <button onclick="put_number_to_input(7)">7</button>
-        <button onclick="put_number_to_input(8)">8</button>
-        <button onclick="put_number_to_input(9)">9</button>
-        <button onclick="put_number_to_input(4)">4</button>
-        <button onclick="put_number_to_input(5)">5</button>
-        <button onclick="put_number_to_input(6)">6</button>
+      <button onclick="put_number_to_input(7)">7</button>
+      <button onclick="put_number_to_input(8)">8</button>
+      <button onclick="put_number_to_input(9)">9</button>
+      <button onclick="clearResult()">C</button>
+      <button onclick="put_number_to_input(4)">4</button>
+      <button onclick="put_number_to_input(5)">5</button>
+      <button onclick="put_number_to_input(6)">6</button>
+      <button onclick="deleteLastDigit_currency()"><img src="assets/images/trash.png" alt=""></button>
         <button onclick="put_number_to_input(1)">1</button>
         <button onclick="put_number_to_input(2)">2</button>
         <button onclick="put_number_to_input(3)">3</button>
+        <button class="equal" onclick="calculateCurrency()">&equals;</button>  
         <button onclick="put_number_to_input(0)">0</button>
         <button onclick="put_number_to_input('.')">.</button>
-        <button class="equal" onclick="calculateCurrency()">&equals;</button>  
         </div>
       </div>
     `;
