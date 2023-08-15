@@ -103,11 +103,11 @@ button {
 #sidebar {
   position: fixed;
   top: 0;
-  left: -250px; /* Sidebar is hidden offscreen by default */
+  left: -250px;
   width: 250px;
   height: 100%;
   background-color: #2E2E2E;
-  transition: left 0.3s ease-in-out; /* Add a transition effect to the left property */
+  transition: left 0.3s ease-in-out;
   border-radius: 5px;
   padding: 15px 5px;
 }
@@ -186,7 +186,7 @@ select {
   color: white;
   border-radius: 0.5rem;
 }
-.btns button:not(:last-child):hover {
+.btns button:hover {
   background-color: #323232;
 }
 .btns button img {
@@ -195,6 +195,9 @@ select {
 .btns .equal {
   background-color: #7CD6F5;
   color: #323232;
+}
+.btns .equal:hover {
+  background-color: #7CD6F5;
 }
 
 .history {
